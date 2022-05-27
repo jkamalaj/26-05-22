@@ -1,0 +1,45 @@
+using System;
+
+
+public class HelloWorld
+
+{
+    public static void Main(string[] args)
+  
+  {
+       //Parameter olaraq integer array variable-i ve bir integer value qebul eden ve hemin integer value-nu
+            integer array-e yeni element kimi elave eden metod.
+       
+       
+
+       int[] numbers={1,4,7,10};
+      
+      AddNum(ref numbers);
+      Foreach(var item in numbers)      
+       {
+        Console.WriteLine(numbers);
+ 
+        }
+   }
+  
+       static int AddNum(int[] numbers,int num)
+  
+
+    {
+    int num=13; 
+
+       for (int i=0;i<numbers.Length;i++)
+        
+     
+     {
+          
+            num=numbers[numbers.length+1];
+       
+
+     }
+        return numbers;
+    
+
+  }
+
+}

@@ -1,0 +1,22 @@
+ // Parametr olaraq 1 string d?y?r q?bul ed?n v? h?min string d?y?ri ?vv?lind? v? sonunda bosluqlar
+ qalmayacaq hala g?tir?n metod.
+     
+
+
+    char letters[] ={"Kamala Jamalova"};
+      
+
+         string letterWord="";
+      
+
+       foreach={var item in letters};
+      
+
+     {
+          
+          letterWord+=item;
+    
+     }
+     
+
+     Console.WriteLine(letterWord);
